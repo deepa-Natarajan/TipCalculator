@@ -1,21 +1,22 @@
 package com.example.tipcalculator;
 
 public class TipCalculator {
+
     private float tip;
     private float bill;
 
-    public TipCalculator(float newBill, float newTip) {
+    public TipCalculator(float newTip, float newBill) {
         setTip(newTip);
         setBill(newBill);
 
     }
 
-    private void setBill(float newBill) {
+    protected void setBill(float newBill) {
         if (newBill >= 0)
             this.bill = newBill;
     }
 
-    private void setTip(float newTip) {
+    protected void setTip(float newTip) {
         if (newTip >= 0)
             this.tip = newTip;
     }
@@ -30,7 +31,7 @@ public class TipCalculator {
 
     public float tipAmount() {
 
-        return (tip /100)* bill;
+        return (tip )* bill;
     }
     public float billAmount(){
 

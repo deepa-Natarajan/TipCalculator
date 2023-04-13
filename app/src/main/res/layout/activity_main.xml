@@ -94,7 +94,7 @@
         android:layout_alignBottom="@id/label_total"
         android:layout_toRightOf="@id/label_total" />
 
-    <!--Calculate button in green  -->
+    <!--Calculate button in green
 
 
     <Button
@@ -105,6 +105,6 @@
          android:text="@string/button_calculate"
         android:onClick="calculate"
         />
-
+-->
 
 </RelativeLayout>
